@@ -23,7 +23,7 @@ public class App extends BasePage{
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
         desiredCapabilities.setCapability("noReset", false);
-        desiredCapabilities.setCapability("autoGrantPermissions", true);
+        // desiredCapabilities.setCapability("autoGrantPermissions", true);
         desiredCapabilities.setCapability("deviceName", System.getenv("UDID"));
 //         desiredCapabilities.setCapability("udid", System.getenv("UDID"));
 
