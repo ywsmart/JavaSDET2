@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class BasePage {
-    public static AndroidDriver<WebElement> driver;
+    public static AndroidDriver driver;
     private PageObjectModel model=new PageObjectModel();
 
     //测试步骤参数化
