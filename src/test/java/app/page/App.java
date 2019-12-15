@@ -24,7 +24,7 @@ public class App extends BasePage{
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
         desiredCapabilities.setCapability("noReset", false);
         desiredCapabilities.setCapability("autoGrantPermissions", true);
-        desiredCapabilities.setCapability("deviceName", System.getenv("UDID"));
+        desiredCapabilities.setCapability("udid", System.getenv("UDID"));
 //         desiredCapabilities.setCapability("udid", System.getenv("UDID"));
 
         URL remoteUrl = new URL("http://127.0.0.1:4723/wd/hub");
